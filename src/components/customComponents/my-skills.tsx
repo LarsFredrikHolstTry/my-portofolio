@@ -15,7 +15,6 @@ import {
 } from "react-icons/si"
 import { VscVscode } from "react-icons/vsc"
 import { OrbitingCircles } from "../ui/orbiting-circles"
-import { Particles } from "../ui/particles"
 
 type SkillItem = {
   name: string
@@ -147,19 +146,13 @@ export function MySkills() {
       className="relative flex min-h-svh w-full flex-col items-center justify-center overflow-hidden px-6 py-20 text-white"
       onMouseLeave={() => setActiveSkill(null)}
     >
-      <Particles
-        className="absolute inset-0 z-0"
-        quantity={100}
-        ease={80}
-        color={"#ffffff"}
-        refresh
-      />
+      
 
       <div className="pointer-events-none relative z-10 mb-10 max-w-xl text-center">
         <p className="mb-3 text-sm uppercase tracking-[0.4em] text-amber-200/80">Kompetanse</p>
-        <h2 className="text-4xl font-semibold tracking-tight md:text-6xl">Dette kan jeg</h2>
+        <h2 className="text-4xl font-semibold tracking-tight md:text-6xl">Hva kan jeg?</h2>
         <p className="mt-4 text-sm leading-6 text-white/70 md:text-base">
-          Hold pekeren over en teknologi for a stoppe bevegelsen og se hva jeg bruker den til.
+          Hold pekeren over en teknologi for å se hva jeg bruker den til.
         </p>
       </div>
 

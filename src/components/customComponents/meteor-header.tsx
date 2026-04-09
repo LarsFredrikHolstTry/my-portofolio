@@ -1,17 +1,16 @@
 import { motion } from "framer-motion"
 import { SparklesText } from "../ui/sparkles-text"
-import { Particles } from "../ui/particles"
 
 export function MeteorHeader() {
   return (
     <div className="relative flex min-h-svh w-full flex-col items-center justify-center overflow-hidden rounded-lg">
       <div className="pointer-events-none bg-clip-text text-center leading-none font-semibold whitespace-pre-wrap">
         <div className="flex h-auto w-auto items-start gap-2 border-b bg-card p-4">
-          <SparklesText>
+          <SparklesText colors={{ first: "#d87f1a", second: "#ff997a" }}>
             <p className="text-4xl">
-              <span className="text-[#9E7AFF]">{`< `}</span>
+              <span className="text-amber-500">{`< `}</span>
               Fredrik.Codes
-              <span className="text-[#FE8BBB]">{` />`}</span>
+              <span className="text-amber-500">{` />`}</span>
             </p>
           </SparklesText>
         </div>
@@ -38,13 +37,7 @@ export function MeteorHeader() {
           />
         </svg>
       </motion.div>
-      <Particles
-        className="absolute inset-0 z-0"
-        quantity={100}
-        ease={80}
-        color={"#ffffff"}
-        refresh
-      />
+
     </div>
   )
 }
