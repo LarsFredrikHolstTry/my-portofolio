@@ -10,7 +10,7 @@ export function MeteorHeader() {
           <SparklesText>
             <p className="text-4xl">
               <span className="text-[#9E7AFF]">{`< `}</span>
-              Fredrik.Coder
+              Fredrik.Codes
               <span className="text-[#FE8BBB]">{` />`}</span>
             </p>
           </SparklesText>
