@@ -29,8 +29,7 @@ export function MyUniverse() {
               Velkommen til mitt univers
             </h1>
             <p className="max-w-2xl text-base leading-7 text-white/70 md:text-lg">
-              Her finner du prosjektene mine, teknologiene jeg liker a jobbe med og litt mer om
-              hvordan jeg tenker nar jeg bygger ting for web.
+              Her finner du info om meg, prosjektene mine og teknologiene jeg liker å jobbe med!
             </p>
           </div>
 
