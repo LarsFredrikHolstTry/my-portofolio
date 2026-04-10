@@ -11,6 +11,15 @@ const projects = [
     image: "/img/mafioso.png",
     url: "https://mafioso.no/",
   },
+  // {
+  //   name: "Sydtakst.no",
+  //   label: "Landingsside",
+  //   year: "2026",
+  //   description: "En landingsside for et takstfirma",
+  //   highlights: ["Landingsside", "Tailwind CSS"],
+  //   image: "/img/sydtakst.png",
+  //   url: "https://sydtakst.no/",
+  // },
 ]
 
 export function MyProjects() {
@@ -18,10 +27,15 @@ export function MyProjects() {
     <section className="relative w-full overflow-visible px-6 py-24 text-white">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10">
         <div className="max-w-2xl">
-          <p className="mb-3 text-sm uppercase tracking-[0.4em] text-amber-200/80">Prosjekter</p>
-          <h2 className="text-4xl font-semibold tracking-tight md:text-6xl">Ting jeg har bygget</h2>
+          <p className="mb-3 text-sm tracking-[0.4em] text-amber-200/80 uppercase">
+            Prosjekter
+          </p>
+          <h2 className="text-4xl font-semibold tracking-tight md:text-6xl">
+            Ting jeg har bygget
+          </h2>
           <p className="mt-4 text-sm leading-6 text-white/70 md:text-base">
-            Prosjekter som viser hva jeg liker å bygge og hvordan jeg jobber fra idé til ferdig løsning.
+            Prosjekter som viser hva jeg liker å bygge og hvordan jeg jobber fra
+            idé til ferdig løsning.
           </p>
         </div>
 
@@ -45,13 +59,13 @@ export function MyProjects() {
 
             <div className="flex flex-col justify-between gap-8 p-8 md:p-10">
               <div>
-                <div className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.35em] text-amber-200/80">
+                <div className="flex flex-wrap items-center gap-3 text-xs tracking-[0.35em] text-amber-200/80 uppercase">
                   <span>{project.label}</span>
                   <span className="h-1 w-1 rounded-full bg-amber-200/60" />
                   <span>{project.year}</span>
                 </div>
 
-                <h3 className="mt-5 text-3xl font-semibold leading-tight text-white md:text-5xl">
+                <h3 className="mt-5 text-3xl leading-tight font-semibold text-white md:text-5xl">
                   {project.name}
                 </h3>
 
@@ -64,14 +78,14 @@ export function MyProjects() {
                 {project.highlights.map((highlight) => (
                   <span
                     key={highlight}
-                    className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.24em] text-white/70"
+                    className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs tracking-[0.24em] text-white/70 uppercase"
                   >
                     {highlight}
                   </span>
                 ))}
               </div>
 
-              <span className="text-sm uppercase tracking-[0.25em] text-white/60 transition duration-300 group-hover:text-white">
+              <span className="text-sm tracking-[0.25em] text-white/60 uppercase transition duration-300 group-hover:text-white">
                 Besøk prosjektet
               </span>
             </div>
