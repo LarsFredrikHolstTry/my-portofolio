@@ -1,3 +1,5 @@
+import { Backlight } from "../ui/backlight"
+
 const experiences = [
   {
     role: "Frontend-utvikler",
@@ -52,13 +54,13 @@ export function MyExperience() {
               className="relative grid gap-4 rounded-[2rem] border border-white/10 bg-white/6 p-6 shadow-[0_24px_80px_rgba(0,0,0,0.28)] backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:border-amber-300/40 md:grid-cols-[auto_1fr]"
             >
               <div className="relative md:pl-14">
-                <div className="flex h-14 w-14 items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-white shadow-[0_0_30px_rgba(251,191,36,0.18)]">
+                <Backlight className="h-14 w-14 rounded-2xl" blur={30}>
                   <img
                     src={experience.logo}
                     alt={`${experience.company} logo`}
-                    className="h-full w-full object-contain"
+                    className="rounded-2xl border border-white/10 bg-white object-contain"
                   />
-                </div>
+                </Backlight>
               </div>
 
               <div className="flex flex-col gap-6">
