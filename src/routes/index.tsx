@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router"
 import { inject } from "@vercel/analytics"
 import { MyArticles } from "@/components/customComponents/my-articles"
+import { MyContact } from "@/components/customComponents/my-contact"
+import { MyExperience } from "@/components/customComponents/my-experience"
 import { MyProjects } from "@/components/customComponents/my-projects"
 import { MyUniverse } from "@/components/customComponents/my-universe"
 import { MySkills } from "@/components/customComponents/my-skills"
@@ -19,8 +21,10 @@ function App() {
       
       <MyUniverse />
       <MySkills />
+      <MyExperience />
       <MyArticles />
       <MyProjects />
+      <MyContact />
 
       <Particles
         className="sticky inset-0 z-0"

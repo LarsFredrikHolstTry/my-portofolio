@@ -11,15 +11,15 @@ const projects = [
     image: "/img/mafioso.png",
     url: "https://mafioso.no/",
   },
-  // {
-  //   name: "Sydtakst.no",
-  //   label: "Landingsside",
-  //   year: "2026",
-  //   description: "En landingsside for et takstfirma",
-  //   highlights: ["Landingsside", "Tailwind CSS"],
-  //   image: "/img/sydtakst.png",
-  //   url: "https://sydtakst.no/",
-  // },
+  {
+    name: "Sydtakst.no",
+    label: "Landingsside",
+    year: "2026",
+    description: "En landingsside for et takstfirma",
+    highlights: ["Landingsside", "Tailwind CSS"],
+    image: "/img/sydtakst.png",
+    url: "https://sydtakst.no/",
+  },
 ]
 
 export function MyProjects() {
