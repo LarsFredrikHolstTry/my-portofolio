@@ -20,6 +20,15 @@ const projects = [
     image: "/img/sydtakst.png",
     url: "https://sydtakst.no/",
   },
+  {
+    name: "alphacloud.no",
+    label: "Landingsside og toppsystem",
+    year: "2026",
+    description: "Alphacloud er en applikasjon hvor kunder kan styre sitt eget SD-anlegg. Jeg har vært med på å utvikle både landingsside og toppsystemet for applikasjonen gjennom Avitell AS",
+    highlights: ["Toppsystem", "Landingsside", "Next.js", "TypeScript"],
+    image: "/img/alphacloud.png",
+    url: "https://alphacloud.no/",
+  },
 ]
 
 export function MyProjects() {

@@ -7,7 +7,7 @@ const experiences = [
     logo: "/img/avitell_logo.jpeg",
     employmentType: "Heltid",
     period: "aug. 2025 - Nåtid",
-    duration: "9 mnd",
+    duration: "11 mnd",
     location: "Kristiansand, Agder, Norge",
     setup: "Lokalt",
     description:
