@@ -12,15 +12,6 @@ const projects = [
     url: "https://mafioso.no/",
   },
   {
-    name: "Sydtakst.no",
-    label: "Landingsside",
-    year: "2026",
-    description: "En landingsside for et takstfirma",
-    highlights: ["Landingsside", "Tailwind CSS"],
-    image: "/img/sydtakst.png",
-    url: "https://sydtakst.no/",
-  },
-  {
     name: "alphacloud.no",
     label: "Landingsside og toppsystem",
     year: "2026",
@@ -28,6 +19,15 @@ const projects = [
     highlights: ["Toppsystem", "Landingsside", "Next.js", "TypeScript"],
     image: "/img/alphacloud.png",
     url: "https://alphacloud.no/",
+  },
+  {
+    name: "Sydtakst.no",
+    label: "Landingsside",
+    year: "2026",
+    description: "En landingsside for et takstfirma",
+    highlights: ["Landingsside", "Tailwind CSS"],
+    image: "/img/sydtakst.png",
+    url: "https://sydtakst.no/",
   },
 ]
 
